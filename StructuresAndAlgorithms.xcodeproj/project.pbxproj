@@ -15,6 +15,8 @@
 		AD74152D2237C4B9009043B4 /* Structures.h in Headers */ = {isa = PBXBuildFile; fileRef = AD74151F2237C4B9009043B4 /* Structures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD7415342237C4E1009043B4 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30D4E021AF27BF00584670 /* QuickSort.swift */; };
 		AD7415352237C513009043B4 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30D4E221AF2C5700584670 /* MergeSort.swift */; };
+		AD7415372237D576009043B4 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7415362237D576009043B4 /* Memoization.swift */; };
+		AD7415382237D576009043B4 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7415362237D576009043B4 /* Memoization.swift */; };
 		AD81EE2C2168BC4900E51831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81EE2B2168BC4900E51831 /* AppDelegate.swift */; };
 		AD81EE2E2168BC4900E51831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81EE2D2168BC4900E51831 /* ViewController.swift */; };
 		AD81EE312168BC4900E51831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD81EE2F2168BC4900E51831 /* Main.storyboard */; };
@@ -55,6 +57,7 @@
 		AD7415252237C4B9009043B4 /* StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD74152A2237C4B9009043B4 /* StructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresTests.swift; sourceTree = "<group>"; };
 		AD74152C2237C4B9009043B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7415362237D576009043B4 /* Memoization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoization.swift; sourceTree = "<group>"; };
 		AD81EE282168BC4900E51831 /* StructuresAndAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructuresAndAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD81EE2B2168BC4900E51831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD81EE2D2168BC4900E51831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +185,7 @@
 				AD81EE4D2168C67100E51831 /* InsertionSort.swift */,
 				AD30D4E021AF27BF00584670 /* QuickSort.swift */,
 				AD30D4E221AF2C5700584670 /* MergeSort.swift */,
+				AD7415362237D576009043B4 /* Memoization.swift */,
 			);
 			path = StructuresAndAlgorithms;
 			sourceTree = "<group>";
@@ -406,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7415382237D576009043B4 /* Memoization.swift in Sources */,
 				AD7415352237C513009043B4 /* MergeSort.swift in Sources */,
 				AD7415342237C4E1009043B4 /* QuickSort.swift in Sources */,
 			);
@@ -424,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD30D4E321AF2C5700584670 /* MergeSort.swift in Sources */,
+				AD7415372237D576009043B4 /* Memoization.swift in Sources */,
 				AD81EE2E2168BC4900E51831 /* ViewController.swift in Sources */,
 				AD30D4E121AF27BF00584670 /* QuickSort.swift in Sources */,
 				AD81EE4E2168C67100E51831 /* InsertionSort.swift in Sources */,
