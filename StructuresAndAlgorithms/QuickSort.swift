@@ -11,7 +11,6 @@ import Foundation
 extension Array {
     
     func quickSort<Element: Comparable>(_ array: [Element])-> [Element] {
-
         guard array.count > 1 else {return array}
         let pivot = array[array.count/2]
         let less = array.filter { $0 < pivot }

@@ -9,7 +9,7 @@
 import Foundation
 
 extension Array {
-    func insertionSort<Element: Comparable>(_ array: [Element],
+    @discardableResult func insertionSort<Element: Comparable>(_ array: [Element],
                                             _ isOrderedBefore: ((Element, Element) -> Bool) = (<)) -> [Element] {
         var mutableArray = array
         for i in 1..<mutableArray.count - 1 {

@@ -15,7 +15,6 @@ extension Array {
         if startIndex >= endIndex {
             return
         }
-        
         let middleIndex = (startIndex + endIndex) / 2
         mergeSort(array: &array, startIndex: startIndex, endIndex: middleIndex)
         mergeSort(array: &array, startIndex: middleIndex+1, endIndex: endIndex)
