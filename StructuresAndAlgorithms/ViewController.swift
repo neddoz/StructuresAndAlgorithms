@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         label.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.8).isActive = true
-        traverseBinaryPreorder()
+        linkedList()
     }
     
     
@@ -69,6 +69,17 @@ class ViewController: UIViewController {
         tree.traversePreOrder { value in
             label.text = (label.text ?? "") + "\(value)"
         }
+    }
+    
+    // MARK:- Doubley Linked list
+    
+    func linkedList() {
+        let dogBreeds = LinkedList()
+        dogBreeds.append("Labrador")
+        dogBreeds.append("Bulldog")
+        dogBreeds.append("Beagle")
+        dogBreeds.append("Husky")
+        label.text = dogBreeds.description
     }
 }
 
