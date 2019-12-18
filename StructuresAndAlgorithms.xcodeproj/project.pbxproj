@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4830E03304E7BD7F607DF5E4 /* Pods_StructuresAndAlgorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE34608696AC073643CD59 /* Pods_StructuresAndAlgorithms.framework */; };
 		AD04D023237D66E70003748D /* BinaryTreeStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04D022237D66E70003748D /* BinaryTreeStructure.swift */; };
+		AD0C2DCE23A0DFAA00752D69 /* TappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C2DCD23A0DFAA00752D69 /* TappingRainWater.swift */; };
 		AD30D4E121AF27BF00584670 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30D4E021AF27BF00584670 /* QuickSort.swift */; };
 		AD30D4E321AF2C5700584670 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30D4E221AF2C5700584670 /* MergeSort.swift */; };
 		AD4DD64D232F402E00E63EB9 /* RPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4DD64C232F402E00E63EB9 /* RPN.swift */; };
@@ -21,6 +22,12 @@
 		AD7415352237C513009043B4 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30D4E221AF2C5700584670 /* MergeSort.swift */; };
 		AD7415372237D576009043B4 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7415362237D576009043B4 /* Memoization.swift */; };
 		AD7415382237D576009043B4 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7415362237D576009043B4 /* Memoization.swift */; };
+		AD7A9CE32383DB98006D12B7 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A9CE22383DB98006D12B7 /* Vertex.swift */; };
+		AD7A9CE52383DDA8006D12B7 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A9CE42383DDA8006D12B7 /* Edge.swift */; };
+		AD7A9CE72383E5DD006D12B7 /* Graphable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A9CE62383E5DD006D12B7 /* Graphable.swift */; };
+		AD7A9CE92383E706006D12B7 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A9CE82383E706006D12B7 /* AdjacencyList.swift */; };
+		AD7A9CEB23841429006D12B7 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A9CEA23841429006D12B7 /* Stack.swift */; };
+		AD7A9CED23841D14006D12B7 /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A9CEC23841D14006D12B7 /* DepthFirstSearch.swift */; };
 		AD81EE2C2168BC4900E51831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81EE2B2168BC4900E51831 /* AppDelegate.swift */; };
 		AD81EE2E2168BC4900E51831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81EE2D2168BC4900E51831 /* ViewController.swift */; };
 		AD81EE312168BC4900E51831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD81EE2F2168BC4900E51831 /* Main.storyboard */; };
@@ -29,6 +36,7 @@
 		AD81EE412168BC4D00E51831 /* StructuresAndAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81EE402168BC4D00E51831 /* StructuresAndAlgorithmsTests.swift */; };
 		AD81EE4C2168BC9300E51831 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81EE4B2168BC9300E51831 /* BubbleSort.swift */; };
 		AD81EE4E2168C67100E51831 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81EE4D2168C67100E51831 /* InsertionSort.swift */; };
+		ADC4AC9F238824E900D7BD6A /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4AC9E238824E800D7BD6A /* Heap.swift */; };
 		D99586022E8B62FED60B627E /* Pods_StructuresAndAlgorithmsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E7625AB5071435BC2AD136 /* Pods_StructuresAndAlgorithmsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +62,7 @@
 		51E7625AB5071435BC2AD136 /* Pods_StructuresAndAlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StructuresAndAlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AC1F616A480D3D56E137E /* Pods-StructuresAndAlgorithmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StructuresAndAlgorithmsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StructuresAndAlgorithmsTests/Pods-StructuresAndAlgorithmsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD04D022237D66E70003748D /* BinaryTreeStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeStructure.swift; sourceTree = "<group>"; };
+		AD0C2DCD23A0DFAA00752D69 /* TappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappingRainWater.swift; sourceTree = "<group>"; };
 		AD30D4E021AF27BF00584670 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		AD30D4E221AF2C5700584670 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		AD4DD64C232F402E00E63EB9 /* RPN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPN.swift; sourceTree = "<group>"; };
@@ -66,6 +75,12 @@
 		AD74152A2237C4B9009043B4 /* StructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresTests.swift; sourceTree = "<group>"; };
 		AD74152C2237C4B9009043B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7415362237D576009043B4 /* Memoization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoization.swift; sourceTree = "<group>"; };
+		AD7A9CE22383DB98006D12B7 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		AD7A9CE42383DDA8006D12B7 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		AD7A9CE62383E5DD006D12B7 /* Graphable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphable.swift; sourceTree = "<group>"; };
+		AD7A9CE82383E706006D12B7 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		AD7A9CEA23841429006D12B7 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		AD7A9CEC23841D14006D12B7 /* DepthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
 		AD81EE282168BC4900E51831 /* StructuresAndAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructuresAndAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD81EE2B2168BC4900E51831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD81EE2D2168BC4900E51831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +93,7 @@
 		AD81EE422168BC4D00E51831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD81EE4B2168BC9300E51831 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		AD81EE4D2168C67100E51831 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		ADC4AC9E238824E800D7BD6A /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		C5FA90B75B0A5D507750684F /* Pods-StructuresAndAlgorithms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StructuresAndAlgorithms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StructuresAndAlgorithms/Pods-StructuresAndAlgorithms.debug.xcconfig"; sourceTree = "<group>"; };
 		DAFCD5DF5750DB115131A017 /* Pods-StructuresAndAlgorithms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StructuresAndAlgorithms.release.xcconfig"; path = "Pods/Target Support Files/Pods-StructuresAndAlgorithms/Pods-StructuresAndAlgorithms.release.xcconfig"; sourceTree = "<group>"; };
 		F4DE34608696AC073643CD59 /* Pods_StructuresAndAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StructuresAndAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +172,19 @@
 			path = StructuresTests;
 			sourceTree = "<group>";
 		};
+		AD7A9CE12383DB7A006D12B7 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				AD7A9CE22383DB98006D12B7 /* Vertex.swift */,
+				AD7A9CE42383DDA8006D12B7 /* Edge.swift */,
+				AD7A9CE62383E5DD006D12B7 /* Graphable.swift */,
+				AD7A9CE82383E706006D12B7 /* AdjacencyList.swift */,
+				AD7A9CEA23841429006D12B7 /* Stack.swift */,
+				AD7A9CEC23841D14006D12B7 /* DepthFirstSearch.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		AD81EE1F2168BC4900E51831 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +212,7 @@
 		AD81EE2A2168BC4900E51831 /* StructuresAndAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				AD7A9CE12383DB7A006D12B7 /* Graph */,
 				AD81EE2B2168BC4900E51831 /* AppDelegate.swift */,
 				AD81EE2D2168BC4900E51831 /* ViewController.swift */,
 				AD81EE2F2168BC4900E51831 /* Main.storyboard */,
@@ -198,6 +228,8 @@
 				AD4DD64C232F402E00E63EB9 /* RPN.swift */,
 				AD04D022237D66E70003748D /* BinaryTreeStructure.swift */,
 				AD508548237EB56900A6ADCC /* LinkedLists.swift */,
+				ADC4AC9E238824E800D7BD6A /* Heap.swift */,
+				AD0C2DCD23A0DFAA00752D69 /* TappingRainWater.swift */,
 			);
 			path = StructuresAndAlgorithms;
 			sourceTree = "<group>";
@@ -443,11 +475,19 @@
 				AD61EC442320EDB40016CB1A /* MaxSubArrayDivideAndConquer.swift in Sources */,
 				AD30D4E321AF2C5700584670 /* MergeSort.swift in Sources */,
 				AD7415372237D576009043B4 /* Memoization.swift in Sources */,
+				AD7A9CE92383E706006D12B7 /* AdjacencyList.swift in Sources */,
 				AD81EE2E2168BC4900E51831 /* ViewController.swift in Sources */,
 				AD508549237EB56900A6ADCC /* LinkedLists.swift in Sources */,
+				AD7A9CE52383DDA8006D12B7 /* Edge.swift in Sources */,
+				AD7A9CE32383DB98006D12B7 /* Vertex.swift in Sources */,
 				AD04D023237D66E70003748D /* BinaryTreeStructure.swift in Sources */,
+				ADC4AC9F238824E900D7BD6A /* Heap.swift in Sources */,
+				AD7A9CE72383E5DD006D12B7 /* Graphable.swift in Sources */,
 				AD30D4E121AF27BF00584670 /* QuickSort.swift in Sources */,
 				AD81EE4E2168C67100E51831 /* InsertionSort.swift in Sources */,
+				AD7A9CEB23841429006D12B7 /* Stack.swift in Sources */,
+				AD0C2DCE23A0DFAA00752D69 /* TappingRainWater.swift in Sources */,
+				AD7A9CED23841D14006D12B7 /* DepthFirstSearch.swift in Sources */,
 				AD81EE2C2168BC4900E51831 /* AppDelegate.swift in Sources */,
 				AD81EE4C2168BC9300E51831 /* BubbleSort.swift in Sources */,
 				AD4DD64D232F402E00E63EB9 /* RPN.swift in Sources */,

@@ -93,8 +93,8 @@ class BinaryTreeStructure<T: Comparable> {
     }
     
     @discardableResult public func remove()-> BinaryTreeStructure? {
-        var replacement: BinaryTreeStructure?
-        return replacement
+//        var replacement: BinaryTreeStructure?
+        return nil
     }
     
     // MARK:- Helper functions
