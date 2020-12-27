@@ -26,7 +26,9 @@ class ViewController: UIViewController {
         label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         label.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.8).isActive = true
-        linkedList()
+        
+        label.text = "Welcome to Algorithms and Data structures"
+//        linkedList()
 //        drawGraphWithAdjacencyList()
     }
     
