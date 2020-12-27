@@ -92,7 +92,7 @@ class ViewController: UIViewController {
     }
     
     func getIntersection(l1: LinkedList, l2: LinkedList) {
-        var parentHead = l1.first
+        let parentHead = l1.first
         var head: ListNode? = parentHead
         
         while head?.next != nil {
@@ -104,7 +104,7 @@ class ViewController: UIViewController {
         
         var string = ""
         while next != nil {
-            string = (string) + "\(next?.value)"
+            string = (string) + "\(String(describing: next?.value))"
             next = next?.next
         }
         next?.next = nil
